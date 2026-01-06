@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Implicit Type Casting (Automatic)
+    int a = 10;
+    double b = a;   // int automatically converted to double
+
+    cout << "Implicit Type Casting:" << endl;
+    cout << "Integer value: " << a << endl;
+    cout << "Double value: " << b << endl;
+
+    // Explicit Type Casting (Manual)
+    double x = 9.8;
+    int y = (int)x;   // double explicitly converted to int
+
+    cout << "\nExplicit Type Casting:" << endl;
+    cout << "Double value: " << x << endl;
+    cout << "Integer value: " << y << endl;
+
+    return 0;
+}
