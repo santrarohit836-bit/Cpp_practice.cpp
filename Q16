@@ -1,0 +1,23 @@
+// 16. Program demonstrating increment/decrement.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 5;
+
+    cout << a++ << endl; // Output: 5 (post-increment)
+    cout << ++a << endl; // Output: 7 (pre-increment)
+    cout << a-- << endl; // Output: 7 (post-decrement)
+    cout << --a << endl; // Output: 5 (pre-decrement)
+
+    return 0;
+}
+
+/*
+Output:
+5
+7
+7
+5
+*/
