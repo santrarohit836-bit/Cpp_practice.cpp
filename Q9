@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Area of Circle
+    float radius = 7;
+    float circleArea = 3.14 * radius * radius;
+    cout << "Area of Circle = " << circleArea << endl;
+
+    // Area of Triangle
+    float base = 10;
+    float height = 5;
+    float triangleArea = 0.5 * base * height;
+    cout << "Area of Triangle = " << triangleArea << endl;
+
+    // Area of Rectangle
+    float length = 8;
+    float breadth = 4;
+    float rectangleArea = length * breadth;
+    cout << "Area of Rectangle = " << rectangleArea << endl;
+
+    return 0;
+}
+
+
+Output --->
+
+Area of Circle = 153.86
+Area of Triangle = 25
+Area of Rectangle = 32
+
+
