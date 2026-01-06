@@ -1,0 +1,19 @@
+// 18. Program to evaluate an algebraic expression.
+// Expression: (a + b) * c / d
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 4, b = 6, c = 2, d = 5;
+
+    int result = (a + b) * c / d;
+    cout << result << endl; // Output: 4
+
+    return 0;
+}
+
+/*
+Output:
+4
+*/
