@@ -1,0 +1,30 @@
+// 14. Program to demonstrate assignment operators.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10;
+
+    a += 5;
+    cout << a << endl;   // Output: 15
+
+    a -= 3;
+    cout << a << endl;   // Output: 12
+
+    a *= 2;
+    cout << a << endl;   // Output: 24
+
+    a /= 4;
+    cout << a << endl;   // Output: 6
+
+    return 0;
+}
+
+/*
+Output:
+15
+12
+24
+6
+*/ 
