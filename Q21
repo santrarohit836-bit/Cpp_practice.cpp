@@ -1,0 +1,19 @@
+// 21. Program using simple if.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age = 20;
+
+    if (age >= 18) {
+        cout << "Eligible to vote" << endl;
+    }
+
+    return 0;
+}
+
+/*
+Output:
+Eligible to vote
+*/
