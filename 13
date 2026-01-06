@@ -1,0 +1,19 @@
+// 13. Program to demonstrate logical operators.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 20;
+
+    // Logical AND (&&)
+    cout << "Logical AND (a > 5 && b > 15): " << (a > 5 && b > 15) << endl;
+
+    // Logical OR (||)
+    cout << "Logical OR (a > 15 || b > 15): " << (a > 15 || b > 15) << endl;
+
+    // Logical NOT (!)
+    cout << "Logical NOT !(a > b): " << !(a > b) << endl;
+
+    return 0;
+}
