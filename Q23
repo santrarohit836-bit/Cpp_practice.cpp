@@ -1,0 +1,27 @@
+// 23. Program using nested if.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 20, c = 15;
+
+    if (a > b) {
+        if (a > c)
+            cout << "a is greatest" << endl;
+        else
+            cout << "c is greatest" << endl;
+    } else {
+        if (b > c)
+            cout << "b is greatest" << endl;
+        else
+            cout << "c is greatest" << endl;
+    }
+
+    return 0;
+}
+
+/*
+Output:
+b is greatest
+*/
