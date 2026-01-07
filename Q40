@@ -1,0 +1,22 @@
+// 40. Program using structure to store student details.
+
+#include <iostream>
+using namespace std;
+
+struct Student {
+    int roll;
+    char name[20];
+    float marks;
+};
+
+int main() {
+    Student s = {101, "Rohit", 85.5};
+
+    cout << s.roll << " " << s.name << " " << s.marks;
+    return 0;
+}
+
+/*
+Output:
+101 Rohit 85.5
+*/
