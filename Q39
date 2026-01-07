@@ -1,0 +1,26 @@
+// 39. Program demonstrating pointers basic operations.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10;
+    int *p;
+
+    p = &a;
+
+    cout << a << endl;   // value of a
+    cout << &a << endl;  // address of a
+    cout << p << endl;   // address stored in pointer
+    cout << *p << endl;  // value using pointer
+
+    return 0;
+}
+
+/*
+Output:
+10
+(address of a)
+(address of a)
+10
+*/
